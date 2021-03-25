@@ -227,7 +227,7 @@ set_sql_databases
 
 # Run
 run_sql_proxies
-env | grep MXRUNTIME
+# env | grep MXRUNTIME
 # Set home dashboard only on the first instance
 # [[ "${CF_INSTANCE_INDEX:-0}" == "0" ]] && set_homedashboard
 # Go back to grafana_server and keep waiting, exit with its exit code.
